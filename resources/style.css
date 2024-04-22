@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: no-repeat url(bg.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 3vh;
+    font-family: sans-serif;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+#title {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 5%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.item-content {
+    margin-top: 5vh;
+}
+
+.bg {}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-top: 1.3vh;
+}
+
+.item-icon {
+    image-rendering: pixelated;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.6vh;
+    border-radius: 10px;
+    width: 5vh;
+    height: 5vh;
+}
+
+.item-name {
+    color: rgba(255, 255, 255, 0.6);
+    transition: color .5s;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+#item-name {
+    font-size: 5vh;
+    font-family: unset;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+    padding-bottom: 20px;
+}
+
+#item-id {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 3vh;
+}
+
+#item-img {
+    width: 20vh;
+    height: 20vh;
+    image-rendering: pixelated;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5vh;
+    border-radius: 10px;
+}
+
+.item-subtitle {
+    font-size: 4vh;
+}
+
+.enchanted {}
+
+.crafting {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.slot {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.item-amount {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.arrow {
+    margin: 5px;
+}
+
+.slot img {
+    width: 48px;
+    height: 48px;
+    image-rendering: pixelated;
+    cursor: pointer;
+}
+
+@keyframes diagonal-animation {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
