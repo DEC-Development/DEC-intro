@@ -1,4 +1,4 @@
-gen/
+/gen/
 dist/
 node_modules/
 DecIsland*/
